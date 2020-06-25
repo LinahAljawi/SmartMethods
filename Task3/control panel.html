@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<title>Control Panel</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+    <style>
+        #box {
+            background-color: rgb(239, 245, 245);
+            width: 290px;
+            height: 400px;
+            border: 15px solid DarkSlateGray;
+            padding: 10px;
+            margin-top: 120px;
+            margin-left: 530px;
+            border-radius: 20px;
+        }
+
+        html {
+            background: url(cool-background.png) no-repeat center fixed;
+            background-size: cover;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="w3-panel w3-light-gray w3-text-teal">
+        <h1>Control Panel</h1>
+    </div>
+
+    
+    <form action= "control.php" method="post">
+        
+        <div id="box">
+            <button name="Power" class="w3-button w3-circle w3-xxlarge w3-red" style="margin-left:85px; margin-top:10px">
+                <i class="fa fa-power-off" style="font-size:45px;"></i></button>
+
+            <button name="Forward" class="w3-button w3-circle w3-xxlarge w3-teal" style="margin-left:85px; margin-top:30px">
+                <i class="fa fa-arrow-up" style="font-size:45px;"></i></button>
+
+            <button name="Left" class="w3-button w3-circle w3-xxlarge w3-teal" style="margin-left:35px;">
+                <i class="fa fa-arrow-left" style="font-size:45px;"></i></button>
+
+            <button name="Right" class="w3-button w3-circle w3-xxlarge w3-teal" style="margin-left:25px;">
+                <i class="fa fa-arrow-right" style="font-size:45px;"></i></button>
+
+            <button name="Backward" class="w3-button w3-circle w3-xxlarge w3-teal" style="margin-left:85px;">
+                <i class="fa fa-arrow-down" style="font-size:45px;"></i></button>
+            </div>
+    </form>
+
+    <div class="w3-panel w3-light-gray w3-text-teal" style="margin-top: 120px;">
+        <h>Linah Aljawi-Smart Methods</h>
+    </div>
+    
+</body>
+
+</html>
